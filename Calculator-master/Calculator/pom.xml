@@ -30,7 +30,7 @@
     <version>1.0</version>
     <name>calculator</name>
     <packaging>pom</packaging>
-<!-- optional tests
+
     <profiles>
         <profile>
             <id>test</id>
@@ -68,7 +68,9 @@
                 </plugins>
             </build>            
         </profile>        
-        <profile>
+      
+<!-- optional tests
+	  <profile>
             <id>prod</id>
             <build>
               <plugins>
